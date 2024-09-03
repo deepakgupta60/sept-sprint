@@ -73,6 +73,28 @@ Startup follow's deadline..
 create a file data.json
 
 
+##### why using id for api, not index of map..
+
+1) re rendering again and again, react never suggest to use index, it might lead to performance issue..
+2)
+
+#### Material UI Grid.
+
+when react came, its too much negative comments on reddit..
+
+patterfly .. using in redhat
+storybook.org
+
+create your own thing from scratch..
+
+help to create a software in faster way
+button.js
+
+### Bootstrap developed by the twitter, for the purpose of mobile first design, like responsiveness
+
+
+
+
 
 
 

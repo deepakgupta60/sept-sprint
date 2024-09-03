@@ -1,25 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import data from "./component/data.json"
-import { Fragment } from 'react';
+import DataFromApi from "./sessionOne/DataFromApi";
 
-
-function App() {
-  // console.log(data.videos)
-  const { videos } = data;
-  return (
-    <div className="App">
-      {
-        videos.map((item) => {
-          return (
-            <Fragment key={item.id}>
-              {item.title}
-            </Fragment>
-          )
-        })
-      }
-    </div>
-  );
+const App = () =>{
+  return(<>
+    <DataFromApi/>
+  </>)
 }
-
 export default App;
